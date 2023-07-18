@@ -1,0 +1,16 @@
+{
+  "cabinets": [
+    {
+      "sceneName": "nyc",
+      "cabinetName": "coro1",
+      "token": "Q3_rCcsV7C0Jg6KHnvM0Veeryw_WOCzduDYAqb9rNIo",
+      "url": "ws://kq.local:12749"
+    }
+  ],
+  "servers": [
+    {
+      "name": "HiveMind",
+      "url": "wss://kqhivemind.com/ws/stats_listener/v3"
+    }
+  ]
+}
