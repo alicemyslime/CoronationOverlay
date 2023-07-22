@@ -1,0 +1,44 @@
+.custom-color {
+    color: black;
+  }
+  
+  #customFrameContainer {
+    display: none;
+  }
+  
+  #stats-legend {
+    opacity: 1!important;
+    background-color: black!important;
+  }
+  
+  #Layer_2 {
+    display: none!important;
+  }
+  
+  @font-face{
+      font-family: 'Hyperwave';
+      src: url(https://raw.githubusercontent.com/alicemyslime/CoronationOverlay/main/Hyperwave.otf) format('opentype');
+  }
+  
+  .team-name {
+      font-family: 'Hyperwave';
+      font-size: 225%;
+  }
+  
+  
+  .team-name-gold {
+        text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000, -1px -1px 10px #c38405, 1px -1px 10px #c38405, -1px 1px 10px #c38405, 1px 1px 10px #c38405!important;
+  
+  }
+  
+  .team-name-blue {
+      text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000, -1px -1px 10px #287efc, 1px -1px 10px #287efc, -1px 1px 10px #287efc, 1px 1px 10px #287efc!important;
+  }
+  
+  .bottom-\[220px\]{
+      bottom: 240px!important
+  }
+  
+  #clock-time-container {
+      display: none;
+  }
