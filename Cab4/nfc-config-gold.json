@@ -1,0 +1,17 @@
+{
+    "pin_config": [
+        { "player_id": 3, "button": 22, "light": 21 },
+        { "player_id": 5, "button": 12, "light": 16 },
+        { "player_id": 1, "button": 19, "light": 18 },
+        { "player_id": 7, "button": 13, "light": 15 },
+        { "player_id": 9, "button": 24, "light": 23 }
+    ],
+    "scene": "nyc",
+    "cabinet": "coro4",
+    "token": "pchyJ_brC37_YQ92dz2kKYi9aH7q5Q2m1xUcDMjeinI",
+    "reader": "gold",
+    "usb_device": "usb:072f:2200",
+    "light_mode": "low",
+    "button_mode": "low",
+    "pins_low": [26]
+}
