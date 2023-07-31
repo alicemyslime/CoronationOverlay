@@ -52,7 +52,7 @@
             "name": "Player Cams"
         }
     ],
-    "name": "CoronationTheme 2",
+    "name": "CoronationTheme",
     "groups": [],
     "quick_transitions": [
         {
@@ -611,7 +611,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "http://kqhivemind.com/overlay/95/auto",
+                "url": "http://kqhivemind.com/overlay/98/auto",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true
@@ -647,7 +647,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": false,
-                "url": "http://kqhivemind.com/overlay/95/ingame",
+                "url": "http://kqhivemind.com/overlay/98/ingame",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true,
@@ -684,7 +684,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/95/match-preview",
+                "url": "https://kqhivemind.com/overlay/98/match-preview",
                 "width": 1920,
                 "height": 1080
             },
@@ -718,7 +718,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/95/match",
+                "url": "https://kqhivemind.com/overlay/98/match",
                 "width": 1920,
                 "height": 1080
             },
@@ -752,7 +752,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/95/player-cams",
+                "url": "https://kqhivemind.com/overlay/98/player-cams",
                 "width": 1920,
                 "height": 1080
             },
@@ -786,7 +786,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/95/postgame",
+                "url": "https://kqhivemind.com/overlay/98/postgame",
                 "width": 1920,
                 "height": 1080,
                 "css": ""
