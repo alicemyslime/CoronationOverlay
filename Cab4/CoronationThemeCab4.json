@@ -52,7 +52,7 @@
             "name": "Player Cams"
         }
     ],
-    "name": "CoronationTheme",
+    "name": "CoronationThemeCab1",
     "groups": [],
     "quick_transitions": [
         {
@@ -132,11 +132,11 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 19,
+                "id_counter": 22,
                 "items": [
                     {
-                        "name": "BACKGROUND",
-                        "source_uuid": "4ac773e2-d086-486e-a7be-cf779a5674b8",
+                        "name": "Background",
+                        "source_uuid": "fc4104c8-2da0-4afe-86d9-db57b659514e",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -159,7 +159,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 15,
+                        "id": 22,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -453,20 +453,22 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.BACKGROUND": [],
-                "libobs.hide_scene_item.BACKGROUND": [],
-                "libobs.show_scene_item.Blue Team Camera": [],
-                "libobs.hide_scene_item.Blue Team Camera": [],
+                "libobs.show_scene_item.Background": [],
+                "libobs.hide_scene_item.Background": [],
                 "libobs.show_scene_item.Gold Team Camera": [],
                 "libobs.hide_scene_item.Gold Team Camera": [],
-                "libobs.show_scene_item.HiveMind In-Game": [],
-                "libobs.hide_scene_item.HiveMind In-Game": [],
+                "libobs.show_scene_item.Blue Team Camera": [],
+                "libobs.hide_scene_item.Blue Team Camera": [],
                 "libobs.show_scene_item.Video Capture Device": [],
                 "libobs.hide_scene_item.Video Capture Device": [],
+                "libobs.show_scene_item.HiveMind In-Game": [],
+                "libobs.hide_scene_item.HiveMind In-Game": [],
                 "libobs.show_scene_item.HiveMind Auto": [],
                 "libobs.hide_scene_item.HiveMind Auto": [],
-                "libobs.show_scene_item.Text (GDI+)": [],
-                "libobs.hide_scene_item.Text (GDI+)": []
+                "libobs.show_scene_item.TBC": [],
+                "libobs.hide_scene_item.TBC": [],
+                "libobs.show_scene_item.NYU": [],
+                "libobs.hide_scene_item.NYU": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -475,8 +477,8 @@
         },
         {
             "prev_ver": 486604803,
-            "name": "BACKGROUND",
-            "uuid": "4ac773e2-d086-486e-a7be-cf779a5674b8",
+            "name": "Background",
+            "uuid": "fc4104c8-2da0-4afe-86d9-db57b659514e",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
@@ -611,7 +613,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "http://kqhivemind.com/overlay/94/auto",
+                "url": "http://kqhivemind.com/overlay/97/auto",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true
@@ -647,12 +649,12 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": false,
-                "url": "http://kqhivemind.com/overlay/94/ingame",
+                "url": "http://kqhivemind.com/overlay/97/ingame",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true,
                 "webpage_control_level": 1,
-                "css": ".custom-color {\n  color: black!important;\n}\n\n#customFrameContainer {\n  display: none;\n}\n\n#stats-legend {\n  opacity: 1!important;\n  background-color: black!important;\n}\n\n#Layer_2 {\n  display: none!important;\n}\n\n@font-face{\n\tfont-family: 'Hyperwave';\n\tsrc: url(https://raw.githubusercontent.com/alicemyslime/CoronationOverlay/main/Hyperwave.otf) format('opentype');\n}\n\n.team-name {\n\tfont-family: 'Hyperwave';\n\tfont-size: 225%;\n}\n\n\n.team-name-gold {\n\t  text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #c38405, 1px -1px 10px #c38405, -1px 1px 10px #c38405, 1px 1px 10px #c38405!important;\n\n}\n\n.team-name-blue {\n    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #287efc, 1px -1px 10px #287efc, -1px 1px 10px #287efc, 1px 1px 10px #287efc!important;\n}\n\n.bottom-\\[220px\\]{\n\tbottom: 230px!important\n}\n\n#clock-time-container {\n    display: none;\n}\n\n#cab-name{\n  font-family: 'Hyperwave';\n  text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #000, 1px -1px 10px #000, -1px 1px 10px #000, 1px 1px 10px #000!important;\n  font-size: 150%;\n}"
+                "css": ".custom-color {\n  color: black!important;\n}\n\n\n#customFrameContainer {\n  display: none;\n}\n\n#stats-legend {\n\tdisplay: none!important;\n  opacity: 1!important;\n  background-color: black!important;\n}\n\n#Layer_2 {\n  display: none!important;\n}\n\n@font-face{\n\tfont-family: 'Hyperwave';\n\tsrc: url(https://raw.githubusercontent.com/alicemyslime/CoronationOverlay/main/Hyperwave.otf) format('opentype');\n}\n\n.team-name {\n\tfont-family: 'Hyperwave';\n\tfont-size: 225%;\n}\n\n\n.team-name-gold {\n\t  text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #c38405, 1px -1px 10px #c38405, -1px 1px 10px #c38405, 1px 1px 10px #c38405!important;\n\n}\n\n.team-name-blue {\n    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #287efc, 1px -1px 10px #287efc, -1px 1px 10px #287efc, 1px 1px 10px #287efc!important;\n}\n\n.bottom-\\[220px\\]{\n\tbottom: 230px!important\n}\n\n\n\n#cab-name{\n  font-family: 'Hyperwave';\n  text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #000, 1px -1px 10px #000, -1px 1px 10px #000, 1px 1px 10px #000!important;\n  font-size: 150%;\n}\n\n#clock-time-container {\n    display: none;\n}"
             },
             "mixers": 255,
             "sync": 0,
@@ -684,7 +686,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/94/match-preview",
+                "url": "https://kqhivemind.com/overlay/97/match-preview",
                 "width": 1920,
                 "height": 1080
             },
@@ -718,7 +720,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/94/match",
+                "url": "https://kqhivemind.com/overlay/97/match",
                 "width": 1920,
                 "height": 1080
             },
@@ -752,7 +754,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/94/player-cams",
+                "url": "https://kqhivemind.com/overlay/97/player-cams",
                 "width": 1920,
                 "height": 1080
             },
@@ -786,7 +788,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/94/postgame",
+                "url": "https://kqhivemind.com/overlay/97/postgame",
                 "width": 1920,
                 "height": 1080,
                 "css": ""
@@ -1576,6 +1578,39 @@
         },
         {
             "prev_ver": 486604803,
+            "name": "NYU",
+            "uuid": "7c0dcf94-0fda-4844-8a21-2245c5adf31d",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "text": "NYU\nGame\nCenter",
+                "font": {
+                    "face": "Helvetica 65 Medium",
+                    "style": "Regular",
+                    "size": 16,
+                    "flags": 0
+                },
+                "antialiasing": false
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 486604803,
             "name": "Player Cams",
             "uuid": "e6633911-df48-4eb0-af30-431c2bd57a82",
             "id": "scene",
@@ -1958,8 +1993,8 @@
         },
         {
             "prev_ver": 486604803,
-            "name": "Text (GDI+)",
-            "uuid": "cbfe205b-cd52-4b8d-90eb-20cdccdffcbc",
+            "name": "TBC",
+            "uuid": "996f941d-9d8e-406f-88d7-166d50559b59",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
@@ -1968,15 +2003,11 @@
                 "text": "The\nBrooklyn\nCoronation",
                 "font": {
                     "face": "Helvetica 65 Medium",
-                    "flags": 0,
-                    "size": 256,
-                    "style": "Regular"
+                    "style": "Regular",
+                    "size": 16,
+                    "flags": 0
                 },
-                "align": "center",
-                "outline_size": 10,
-                "outline_color": 4278190080,
-                "outline_opacity": 100,
-                "antialiasing": true
+                "antialiasing": false
             },
             "mixers": 0,
             "sync": 0,
@@ -2011,7 +2042,7 @@
                 "res_type": 1,
                 "active": false
             },
-            "mixers": 0,
+            "mixers": 63,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
@@ -2030,7 +2061,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
+            "monitoring_type": 2,
             "private_settings": {}
         }
     ]

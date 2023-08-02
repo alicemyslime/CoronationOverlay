@@ -30,35 +30,6 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "AuxAudioDevice3": {
-        "prev_ver": 486604803,
-        "name": "VOD Audio for Soundtrack by Twitch",
-        "uuid": "0fcaee6f-a203-4dd7-8dea-804a745ca387",
-        "id": "soundtrack_global_source",
-        "versioned_id": "soundtrack_global_source",
-        "settings": {},
-        "mixers": 224,
-        "sync": 0,
-        "flags": 0,
-        "volume": 1.0,
-        "balance": 0.5,
-        "enabled": true,
-        "muted": false,
-        "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": false,
-        "push-to-talk-delay": 0,
-        "hotkeys": {
-            "libobs.mute": [],
-            "libobs.unmute": [],
-            "libobs.push-to-mute": [],
-            "libobs.push-to-talk": []
-        },
-        "deinterlace_mode": 0,
-        "deinterlace_field_order": 0,
-        "monitoring_type": 0,
-        "private_settings": {}
-    },
     "current_scene": "Auto",
     "current_program_scene": "Auto",
     "scene_order": [
@@ -79,21 +50,11 @@
         },
         {
             "name": "Player Cams"
-        },
-        {
-            "name": "Commentators"
         }
     ],
-    "name": "CoronationTheme",
+    "name": "CoronationThemeCab1",
     "groups": [],
     "quick_transitions": [
-        {
-            "name": "Stinger",
-            "duration": 300,
-            "hotkeys": [],
-            "id": 1,
-            "fade_to_black": false
-        },
         {
             "name": "Fade",
             "duration": 300,
@@ -118,21 +79,13 @@
             }
         },
         {
-            "name": "Stinger",
-            "id": "obs_stinger_transition",
-            "settings": {
-                "track_matte_enabled": false,
-                "path": "C:/Users/Tyler/CoronationOverlay/stingertest.mov"
-            }
-        },
-        {
             "name": "Swipe (2)",
             "id": "swipe_transition",
             "settings": {}
         }
     ],
     "saved_projectors": [],
-    "current_transition": "Stinger",
+    "current_transition": "Swipe (2)",
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
@@ -179,49 +132,11 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 14,
+                "id_counter": 22,
                 "items": [
                     {
-                        "name": "InGame_Coronation",
-                        "source_uuid": "590cbf91-4806-4363-916d-035938756cb0",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 6,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Background2",
-                        "source_uuid": "c5e61a73-37dc-4eb2-ad44-9b020a5a5ab1",
+                        "name": "Background",
+                        "source_uuid": "fc4104c8-2da0-4afe-86d9-db57b659514e",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -243,46 +158,8 @@
                         "crop_left": 0,
                         "crop_top": 0,
                         "crop_right": 0,
-                        "crop_bottom": 190,
-                        "id": 10,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Gold Team Camera",
-                        "source_uuid": "1965c7ff-359c-4ea9-ba68-91d8a33bab53",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1448.0,
-                            "y": 329.0
-                        },
-                        "scale": {
-                            "x": 0.25,
-                            "y": 0.25
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 464.0,
-                            "y": 261.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 2,
+                        "id": 22,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -334,55 +211,17 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Screenshot",
-                        "source_uuid": "02c8d940-3fb4-4779-bf77-5ae7c34c5c93",
+                        "name": "Gold Team Camera",
+                        "source_uuid": "1965c7ff-359c-4ea9-ba68-91d8a33bab53",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 240.0,
-                            "y": 29.0
-                        },
-                        "scale": {
-                            "x": 0.74947917461395264,
-                            "y": 0.74907410144805908
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 11,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Blue Team Camera",
-                        "source_uuid": "810dfc18-e68b-46c5-b4e1-fa664428aeef",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 1920.0,
+                            "x": 1220.0,
                             "y": 838.0
                         },
                         "scale": {
-                            "x": -1.0,
+                            "x": 1.0,
                             "y": 1.0
                         },
                         "align": 5,
@@ -392,11 +231,11 @@
                             "x": 0.0,
                             "y": 0.0
                         },
-                        "crop_left": 0,
+                        "crop_left": 100,
                         "crop_top": 358,
-                        "crop_right": 101,
+                        "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 12,
+                        "id": 19,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -417,7 +256,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 939.0
+                            "y": 945.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -431,7 +270,7 @@
                             "y": 0.0
                         },
                         "crop_left": 0,
-                        "crop_top": 939,
+                        "crop_top": 945,
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 14,
@@ -488,12 +327,12 @@
                     {
                         "name": "Video Capture Device",
                         "source_uuid": "cefcea37-e30e-44ef-8fc5-93ecec220799",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 240.0,
-                            "y": 0.0
+                            "y": 28.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -560,6 +399,44 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "Text (GDI+)",
+                        "source_uuid": "cbfe205b-cd52-4b8d-90eb-20cdccdffcbc",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 40.0,
+                            "y": 155.0
+                        },
+                        "scale": {
+                            "x": 0.14159291982650757,
+                            "y": 0.1413881778717041
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 17,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -576,23 +453,49 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.InGame_Coronation": [],
-                "libobs.hide_scene_item.InGame_Coronation": [],
-                "libobs.show_scene_item.Background2": [],
-                "libobs.hide_scene_item.Background2": [],
+                "libobs.show_scene_item.Background": [],
+                "libobs.hide_scene_item.Background": [],
                 "libobs.show_scene_item.Gold Team Camera": [],
                 "libobs.hide_scene_item.Gold Team Camera": [],
                 "libobs.show_scene_item.Blue Team Camera": [],
                 "libobs.hide_scene_item.Blue Team Camera": [],
-                "libobs.show_scene_item.Screenshot": [],
-                "libobs.hide_scene_item.Screenshot": [],
-                "libobs.show_scene_item.HiveMind In-Game": [],
-                "libobs.hide_scene_item.HiveMind In-Game": [],
                 "libobs.show_scene_item.Video Capture Device": [],
                 "libobs.hide_scene_item.Video Capture Device": [],
+                "libobs.show_scene_item.HiveMind In-Game": [],
+                "libobs.hide_scene_item.HiveMind In-Game": [],
                 "libobs.show_scene_item.HiveMind Auto": [],
-                "libobs.hide_scene_item.HiveMind Auto": []
+                "libobs.hide_scene_item.HiveMind Auto": [],
+                "libobs.show_scene_item.TBC": [],
+                "libobs.hide_scene_item.TBC": [],
+                "libobs.show_scene_item.NYU": [],
+                "libobs.hide_scene_item.NYU": []
             },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 486604803,
+            "name": "Background",
+            "uuid": "fc4104c8-2da0-4afe-86d9-db57b659514e",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/Tyler/CoronationOverlay/Media/BackgroundSplice.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -605,7 +508,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/Tyler/CoronationOverlay/transitionv2.png"
+                "file": "C:/Users/Tyler/CoronationOverlay/Media/transitionv2.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -633,11 +536,11 @@
             "settings": {
                 "device_id": "/dev/video0",
                 "input": 0,
-                "pixelformat": 1196444237,
-                "video_device_id": "HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&c2e8379&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "last_video_device_id": "HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&c2e8379&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
                 "last_resolution": "800x600",
+                "last_video_device_id": "HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&c2e8379&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "pixelformat": 1196444237,
                 "resolution": "800x600",
+                "video_device_id": "HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&c2e8379&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
                 "frame_interval": 0,
                 "res_type": 1,
                 "active": true
@@ -666,103 +569,6 @@
         },
         {
             "prev_ver": 486604803,
-            "name": "Commentators",
-            "uuid": "409b1e8a-3eae-4db2-9800-5817c3dd2ffc",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 1,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "CommentatorsBackground",
-                        "source_uuid": "e0f5dd50-aa77-426a-a883-c714beb97213",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.CommentatorsBackground": [],
-                "libobs.hide_scene_item.CommentatorsBackground": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
-            "name": "CommentatorsBackground",
-            "uuid": "e0f5dd50-aa77-426a-a883-c714beb97213",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "C:/Users/Tyler/CoronationOverlay/BACKGROUND-COMMENTATOR_v1.png"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
             "name": "Gold Team Camera",
             "uuid": "1965c7ff-359c-4ea9-ba68-91d8a33bab53",
             "id": "dshow_input",
@@ -770,8 +576,13 @@
             "settings": {
                 "device_id": "/dev/video0",
                 "input": 0,
+                "last_resolution": "800x600",
+                "last_video_device_id": "Logi Capture:@device#3Asw#3A{860BB310-5D01-11D0-BD3B-00A0C911CE86}\\{4A2FEA90-B0A0-438E-8BC3-D84157660D0A}",
                 "pixelformat": 1196444237,
-                "active": false
+                "resolution": "800x600",
+                "video_device_id": "Logi Capture:@device#3Asw#3A{860BB310-5D01-11D0-BD3B-00A0C911CE86}\\{4A2FEA90-B0A0-438E-8BC3-D84157660D0A}",
+                "res_type": 1,
+                "active": true
             },
             "mixers": 0,
             "sync": 0,
@@ -802,7 +613,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "http://localhost:8087/overlay/1/auto",
+                "url": "http://kqhivemind.com/overlay/94/auto",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true
@@ -838,12 +649,12 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": false,
-                "url": "http://localhost:8087/overlay/1/ingame",
+                "url": "http://kqhivemind.com/overlay/94/ingame",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": true,
                 "webpage_control_level": 1,
-                "css": ".custom-color {\n  color: black!important;\n}\n\n#customFrameContainer {\n  display: none;\n}\n\n#stats-legend {\n  opacity: 1!important;\n  background-color: black!important;\n}\n\n#Layer_2 {\n  display: none!important;\n}\n\n@font-face{\n\tfont-family: 'Hyperwave';\n\tsrc: url(https://raw.githubusercontent.com/alicemyslime/CoronationOverlay/main/Hyperwave.otf) format('opentype');\n}\n\n.team-name {\n\tfont-family: 'Hyperwave';\n\tfont-size: 225%;\n}\n\n\n.team-name-gold {\n\t  text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #c38405, 1px -1px 10px #c38405, -1px 1px 10px #c38405, 1px 1px 10px #c38405!important;\n\n}\n\n.team-name-blue {\n    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #287efc, 1px -1px 10px #287efc, -1px 1px 10px #287efc, 1px 1px 10px #287efc!important;\n}\n\n.bottom-\\[220px\\]{\n\tbottom: 300px!important\n}\n\n#clock-time-container {\n    display: none;\n}\n\n#cab-name{\n  font-family: 'Hyperwave';\n  text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #000, 1px -1px 10px #000, -1px 1px 10px #000, 1px 1px 10px #000!important;\n  font-size: 150%;\n}"
+                "css": ".custom-color {\n  color: black!important;\n}\n\n\n#customFrameContainer {\n  display: none;\n}\n\n#stats-legend {\n\tdisplay: none!important;\n  opacity: 1!important;\n  background-color: black!important;\n}\n\n#Layer_2 {\n  display: none!important;\n}\n\n@font-face{\n\tfont-family: 'Hyperwave';\n\tsrc: url(https://raw.githubusercontent.com/alicemyslime/CoronationOverlay/main/Hyperwave.otf) format('opentype');\n}\n\n.team-name {\n\tfont-family: 'Hyperwave';\n\tfont-size: 225%;\n}\n\n\n.team-name-gold {\n\t  text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #c38405, 1px -1px 10px #c38405, -1px 1px 10px #c38405, 1px 1px 10px #c38405!important;\n\n}\n\n.team-name-blue {\n    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #287efc, 1px -1px 10px #287efc, -1px 1px 10px #287efc, 1px 1px 10px #287efc!important;\n}\n\n.bottom-\\[220px\\]{\n\tbottom: 230px!important\n}\n\n\n\n#cab-name{\n  font-family: 'Hyperwave';\n  text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000,\t-1px -1px 10px #000, 1px -1px 10px #000, -1px 1px 10px #000, 1px 1px 10px #000!important;\n  font-size: 150%;\n}\n\n#clock-time-container {\n    display: none;\n}"
             },
             "mixers": 255,
             "sync": 0,
@@ -875,7 +686,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/78/match-preview",
+                "url": "https://kqhivemind.com/overlay/94/match-preview",
                 "width": 1920,
                 "height": 1080
             },
@@ -909,7 +720,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/78/match",
+                "url": "https://kqhivemind.com/overlay/94/match",
                 "width": 1920,
                 "height": 1080
             },
@@ -943,7 +754,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/78/player-cams",
+                "url": "https://kqhivemind.com/overlay/94/player-cams",
                 "width": 1920,
                 "height": 1080
             },
@@ -977,7 +788,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/78/postgame",
+                "url": "https://kqhivemind.com/overlay/94/postgame",
                 "width": 1920,
                 "height": 1080,
                 "css": ""
@@ -1283,7 +1094,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/Tyler/CoronationOverlay/backgroundv2.png",
+                "file": "C:/Users/Tyler/CoronationOverlay/Media/backgroundv2.png",
                 "linear_alpha": false
             },
             "mixers": 0,
@@ -1767,6 +1578,39 @@
         },
         {
             "prev_ver": 486604803,
+            "name": "NYU",
+            "uuid": "7c0dcf94-0fda-4844-8a21-2245c5adf31d",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "text": "NYU\nGame\nCenter",
+                "font": {
+                    "face": "Helvetica 65 Medium",
+                    "style": "Regular",
+                    "size": 16,
+                    "flags": 0
+                },
+                "antialiasing": false
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 486604803,
             "name": "Player Cams",
             "uuid": "e6633911-df48-4eb0-af30-431c2bd57a82",
             "id": "scene",
@@ -2149,12 +1993,21 @@
         },
         {
             "prev_ver": 486604803,
-            "name": "Screenshot",
-            "uuid": "02c8d940-3fb4-4779-bf77-5ae7c34c5c93",
-            "id": "image_source",
-            "versioned_id": "image_source",
+            "name": "TBC",
+            "uuid": "996f941d-9d8e-406f-88d7-166d50559b59",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
             "settings": {
-                "file": "C:/Users/Tyler/Desktop/queen-bee-superJumbo.jpg"
+                "chatlog": false,
+                "outline": true,
+                "text": "The\nBrooklyn\nCoronation",
+                "font": {
+                    "face": "Helvetica 65 Medium",
+                    "style": "Regular",
+                    "size": 16,
+                    "flags": 0
+                },
+                "antialiasing": false
             },
             "mixers": 0,
             "sync": 0,
@@ -2182,14 +2035,14 @@
             "settings": {
                 "device": "",
                 "device_name": "FaceTime HD Camera",
-                "video_device_id": "HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&c2e8379&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "last_resolution": "1920x1080",
                 "last_video_device_id": "HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&c2e8379&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
                 "resolution": "1920x1080",
-                "last_resolution": "1920x1080",
+                "video_device_id": "HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#226&c2e8379&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
                 "res_type": 1,
                 "active": false
             },
-            "mixers": 0,
+            "mixers": 63,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
@@ -2208,7 +2061,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
+            "monitoring_type": 2,
             "private_settings": {}
         }
     ]
